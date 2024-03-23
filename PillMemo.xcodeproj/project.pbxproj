@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CE613672B96506500045388 /* PillMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE613662B96506500045388 /* PillMemoApp.swift */; };
-		1CE613692B96506500045388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE613682B96506500045388 /* ContentView.swift */; };
+		1CAE8B802BAF60DF0009530E /* AllPillRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE8B7F2BAF60DF0009530E /* AllPillRemindersView.swift */; };
+		1CAE8B822BAF60F80009530E /* CreateReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE8B812BAF60F80009530E /* CreateReminderView.swift */; };
+		1CAE8B842BAF61080009530E /* ReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE8B832BAF61080009530E /* ReminderViewModel.swift */; };
+		1CAE8B862BAF61190009530E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE8B852BAF61190009530E /* ContentView.swift */; };
 		1CE6136B2B96506900045388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE6136A2B96506900045388 /* Assets.xcassets */; };
 		1CE6136E2B96506900045388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE6136D2B96506900045388 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CAE8B7F2BAF60DF0009530E /* AllPillRemindersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllPillRemindersView.swift; path = ../../../../Downloads/AllPillRemindersView.swift; sourceTree = "<group>"; };
+		1CAE8B812BAF60F80009530E /* CreateReminderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateReminderView.swift; path = ../../../../Downloads/CreateReminderView.swift; sourceTree = "<group>"; };
+		1CAE8B832BAF61080009530E /* ReminderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReminderViewModel.swift; path = ../../../../Downloads/ReminderViewModel.swift; sourceTree = "<group>"; };
+		1CAE8B852BAF61190009530E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../Downloads/ContentView.swift; sourceTree = "<group>"; };
 		1CE613632B96506500045388 /* PillMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CE613662B96506500045388 /* PillMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillMemoApp.swift; sourceTree = "<group>"; };
-		1CE613682B96506500045388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CE6136A2B96506900045388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE6136D2B96506900045388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,10 +55,12 @@
 		1CE613652B96506500045388 /* PillMemo */ = {
 			isa = PBXGroup;
 			children = (
-				1CE613662B96506500045388 /* PillMemoApp.swift */,
-				1CE613682B96506500045388 /* ContentView.swift */,
 				1CE6136A2B96506900045388 /* Assets.xcassets */,
 				1CE6136C2B96506900045388 /* Preview Content */,
+				1CAE8B7F2BAF60DF0009530E /* AllPillRemindersView.swift */,
+				1CAE8B812BAF60F80009530E /* CreateReminderView.swift */,
+				1CAE8B832BAF61080009530E /* ReminderViewModel.swift */,
+				1CAE8B852BAF61190009530E /* ContentView.swift */,
 			);
 			path = PillMemo;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CE613692B96506500045388 /* ContentView.swift in Sources */,
-				1CE613672B96506500045388 /* PillMemoApp.swift in Sources */,
+				1CAE8B842BAF61080009530E /* ReminderViewModel.swift in Sources */,
+				1CAE8B862BAF61190009530E /* ContentView.swift in Sources */,
+				1CAE8B802BAF60DF0009530E /* AllPillRemindersView.swift in Sources */,
+				1CAE8B822BAF60F80009530E /* CreateReminderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
